@@ -67,10 +67,12 @@ plt.axvspan(7.1, 10.1, facecolor='green', alpha = 0.6)
 plt.tick_params(axis='y', which='major')
 
 
-plt.title('Klasterovanje na osnovu 42 atributa u 4 klastera')
+plt.title('Klasterovanje na osnovu 44 atributa u 4 klastera')
 plt.legend()
 plt.xlabel("Pozicija na terenu")
 plt.ylabel("Overall")
+
 plt.tight_layout()
+plt.savefig('position_clustering')
 plt.show()
 
