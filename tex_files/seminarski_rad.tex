@@ -63,6 +63,8 @@ Uz poku\v{s}aj da budu dobijeni klasteri što pribli\v{z}niji nekim podelama koj
 
 \end{titlepage}
 
+\tableofcontents
+
 \section{Uvod}
 
 
@@ -658,5 +660,43 @@ manje su raspr\v{s}eni po terenu.
 
 
 \subsection{BIRCH}
+
+BIRCH - \emph(balanced iterative reducing and clustering using hierarchies)
+Hibridni algoritam za klasteorvanje koji se zasniva na pravljenju
+CF(\emph{Clusters Features})-stabla. Kasnijim particionisanjem
+stabla od korena ka vrhu stvaraju\'{c}i klastere.
+\\
+Za paramtera $k = 11$ Birch daje sli\v{c}ne rezultate kao i 11-means.
+
+
+\begin{figure}[h]
+\centering
+\graphicspath{{../}}
+\includegraphics[scale=0.2]{birch_11_pca.png}
+\caption{BIRCH PCA}
+\end{figure}
+
+Ali primenom na PCA komponente dobijamo \emph{senka koeficijent} $\approx 0.61$
+sa 11 klastera. \v{S}to je definitivno najbolji pojedina\v{c}ni rezultat
+dobijen tokom izrade ovog seminarskog rada.
+
+
+\section{Zaklju\v{c}ak}
+Skup podataka FIFA19 je verovatno jedan od popularnijih na
+adresi: \url{www.kaggle.com}, \v{s}to zbog popularnosti tematike
+tako i velikog broja atributa koje je mogu\'{c}e kombinovati i izvla\v{c}enja
+finijih podela i filtriranja. U ovom seminarskom radu je nije bilo prostora uraditi
+mnogo finijih klaster analiza na u\v{z}im podskupovima i sa drugim ciljevima.
+Pa je izabran najintuitvniji cilj. Podela do 11 klastera nad svim igra\v{c}ima
+i opet su napravljeni solidni rezultati.
+
+Algoritmi DBSCAN i SOM su se pokazali lo\v{s}ije od ostalih,
+dok ostala 4 algoritma je uz dodatno testiranje parametara
+mogu\'{c}e podesiti da daju sli\v{c}ne rezultate. \\
+
+Celokupan materijal kori\v{s}\'{c}en u ovom seminarskom 
+radu \'{c}e do daljenjg biti dosptupan na adresi:
+\url{https://github.com/gianthead97/fifa_19_clustering}.
+
 
 \end{document}
