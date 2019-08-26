@@ -1,0 +1,15 @@
+\babel@toc {serbian}{}
+\beamer@sectionintoc {2}{Uvod}{3}{0}{1}
+\beamer@subsectionintoc {2}{1}{Motivacija}{3}{0}{1}
+\beamer@subsectionintoc {2}{2}{Skup podataka}{6}{0}{1}
+\beamer@sectionintoc {3}{Analiza podataka}{14}{0}{2}
+\beamer@subsectionintoc {3}{1}{Statistike}{14}{0}{2}
+\beamer@subsectionintoc {3}{2}{Pretprocesiranje}{18}{0}{2}
+\beamer@sectionintoc {4}{Primena algoritama}{22}{0}{3}
+\beamer@subsectionintoc {4}{1}{K-means}{23}{0}{3}
+\beamer@subsectionintoc {4}{2}{DBSCAN}{25}{0}{3}
+\beamer@subsectionintoc {4}{3}{Self Organizing Map}{27}{0}{3}
+\beamer@subsectionintoc {4}{4}{Hijerarhijsko klasterovanje}{29}{0}{3}
+\beamer@subsectionintoc {4}{5}{Meanshift}{31}{0}{3}
+\beamer@subsectionintoc {4}{6}{BIRCH}{37}{0}{3}
+\beamer@sectionintoc {5}{Zaklju\IeC {\v c}ak}{38}{0}{4}

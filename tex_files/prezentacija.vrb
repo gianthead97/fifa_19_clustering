@@ -1,0 +1,14 @@
+\frametitle{Meanshift}
+\begin{lstlisting}[language=Pascal, basicstyle=\scriptsize]
+Input: bandwith, skup podataka
+WHILE postoji objekat koji nije dodeljen nijednom klasteru DO :
+	izaberi jedan od nedodeljenih objekata i oznaci
+	da pripada novom klasteru
+	REPEAT:
+	azuriraj srednju tacku ( centroid ) u trenutnom klasteru ;
+	sve tacke koje se nalaze na razdaljini manjoj
+	od bandwidth oznaci ih da pripadaju trenutnom
+	klasteru;
+	UNTIL postoji promena na trenutnom klasteru
+\end{lstlisting}
+
